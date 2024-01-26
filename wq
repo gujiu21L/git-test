@@ -1,0 +1,23 @@
+[33m8200fce[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{0}: merge fxs02: Merge made by the 'ort' strategy.
+[33medb6c79[m HEAD@{1}: merge fxs01: Merge made by the 'ort' strategy.
+[33mb149bbc[m HEAD@{2}: checkout: moving from fxs02 to master
+[33mf7b9f18[m HEAD@{3}: checkout: moving from master to fxs02
+[33mb149bbc[m HEAD@{4}: commit: update file .gitignore content add *.exe
+[33m779cd54[m HEAD@{5}: commit: edit helloworld.cpp to print hello world\n
+[33m1e19508[m HEAD@{6}: commit: rename (mv) helloworld.c to helloworld.cpp
+[33mcedd351[m HEAD@{7}: commit: add file helloworld.c
+[33md9a63e0[m HEAD@{8}: checkout: moving from fxs02 to master
+[33mf7b9f18[m HEAD@{9}: commit: add file fxs02.txt
+[33md9a63e0[m HEAD@{10}: checkout: moving from master to fxs02
+[33md9a63e0[m HEAD@{11}: checkout: moving from fxs01 to master
+[33md8601ae[m HEAD@{12}: commit: add file fxs01.txt
+[33mc2e8dba[m HEAD@{13}: checkout: moving from master to fxs01
+[33md9a63e0[m HEAD@{14}: checkout: moving from fxs02 to master
+[33md9a63e0[m HEAD@{15}: checkout: moving from master to fxs02
+[33md9a63e0[m HEAD@{16}: checkout: moving from fxs01 to master
+[33mc2e8dba[m HEAD@{17}: checkout: moving from master to fxs01
+[33md9a63e0[m HEAD@{18}: checkout: moving from fxs01 to master
+[33mc2e8dba[m HEAD@{19}: checkout: moving from master to fxs01
+[33md9a63e0[m HEAD@{20}: commit: add .gitignore file
+[33mc2e8dba[m HEAD@{21}: commit: 好
+[33mba84148[m HEAD@{22}: commit (initial): add file01
