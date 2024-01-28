@@ -1,0 +1,20 @@
+git 常见操作：
+git-log : 输出日志信息
+ll/ls : 输出文件夹目录
+touch <filename.file> : 创建文件
+mkdir <> : 创建目录
+cd : 跟踪目录
+vi filename.txt : vim 编辑文件
+git status : 查看git状态
+git add . : 添加
+git commit -m "" : 提交
+git branch
+git checkout branchname
+git checkout -b brankname
+git reset
+git reflog
+.gitignore file
+cat 
+url
+rm -rf 删除
+
