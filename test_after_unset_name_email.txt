@@ -1,0 +1,17 @@
+我做了大量测试
+当我删除凭据管理器里的GitHub时，
+我尝试用新的Github账号使用
+git push
+git bash 告诉我：
+The requested URL returned error: 403
+后来我才知道
+这是由于我没有给新账号权限
+即应当Github中仓库的负责人邀请新账号
+这时可以
+git push
+但我多次反复
+它一直是显示
+由gujiu21L 提交
+而非gujiu21LSonXiaowang 提交
+原因在于git 通过 user.name 和 user.email 辨别提交者
+另一个问题：任何人都可以用我的身份提交吗？
