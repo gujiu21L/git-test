@@ -21,3 +21,41 @@
 
 
 ----------------------- end gujiu_21L
+
+
+----------------------- 上面的都是垃圾！ begin by 小张
+我叫 小张
+虽然我不是他们团队 gujiu_21L & xiaowang team 的
+但是它们跟我比简直就是垃圾
+给大家默写一个C++ 快速排序
+
+#include<iostream>
+
+using namespace std;
+
+const int N = 1e5 + 10;
+int n , q[N];
+
+void qsr(int *q , int l , int r)
+{
+  if(l >= r)return ;
+  int x = q[l + r + 1 >> 1 ] , i = l - 1 , j = r + 1;
+  while(i < j ){
+    while(q[ ++ i ] < x) ;
+    while(q[ -- j ] > x) ;
+    if(i < j) swap(q[i] , q[j]);
+  }
+  qsr(q , l , i - 1 ) , qsr(q , i , r) ;
+}
+
+int main(void)
+{
+  scanf("%d" , &n);
+  for(int i = 0 ; i < n ; i ++ )scanf("%d"  , &q[i] );
+
+  qsr(q , 0 , n - 1 );
+
+  for(int i = 0 ;  < n ; i ++ ) printf("%d " , q[i] );
+  return 0;
+}
+--------------- end by 小张 2024/2/1 16：57
